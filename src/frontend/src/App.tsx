@@ -189,24 +189,48 @@ const CERTIFICATES: Certificate[] = [
     issuer: "E-Cell IIT Bombay",
     image: "/assets/uploads/image-13-7.png",
   },
+  {
+    title: "Certification",
+    issuer: "",
+    image:
+      "https://i.postimg.cc/0QNKw2sb/1761759975026-e-1775088000-v-beta-t-j-Tk-Kquxk7Or3xuc2k3Do-Sn-G2Hv7j3Ea-MEopkr66Y09M.jpg",
+  },
+  {
+    title: "Certification",
+    issuer: "",
+    image:
+      "https://i.postimg.cc/mZtmH7B7/1759074618666-e-1775088000-v-beta-t-6o-Bxt8bh-TN15tp1PMUi8POC3dgc-CVhq-Bzw-ABV539Z8k.jpg",
+  },
+  {
+    title: "Certification",
+    issuer: "",
+    image:
+      "https://i.postimg.cc/G3WxTNMn/1755012919238-e-1775088000-v-beta-t-kj7LQF0Du-C031SAv-MQdq-OS-s-Ij-M51O6CLKL0M0gfu-U4.jpg",
+  },
+  {
+    title: "Certification",
+    issuer: "",
+    image:
+      "https://i.postimg.cc/8Cc60Byt/1742046613759-e-1775088000-v-beta-t-w-VQRWa-Tu0hi-Vqypu9Brfhr-y-HCwf-Cm9i-E0w-B-z-FIjg-E.jpg",
+  },
 ];
 
 const EDUCATION: Education[] = [
   {
     institution: "GL Bajaj Group of Institutions",
     degree: "B.Tech CSE AI – Honours in Cybersecurity",
-    period: "2022 – 2026",
+    period: "2023 – 2027",
     detail: "CGPA: 8+",
   },
   {
     institution: "Aviraj World School",
     degree: "Senior Secondary (12th)",
-    period: "2020 – 2022",
+    period: "2022 – 2023",
   },
   {
     institution: "RDS Public School",
     degree: "Secondary (10th)",
-    period: "Until 2020",
+    period: "Until 2021",
   },
 ];
 
@@ -705,7 +729,7 @@ export default function App() {
           className={isDark ? "profile-photo" : ""}
         >
           <img
-            src="/assets/uploads/dhruv-Pic-1-1.jpg"
+            src="https://i.postimg.cc/7ZQFkKZW/1.jpg"
             alt="Dhruv Sharma"
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
           />
@@ -766,7 +790,7 @@ export default function App() {
         >
           {[
             { label: "Projects", value: "3+" },
-            { label: "Certifications", value: "5" },
+            { label: "Certifications", value: "5+" },
             { label: "CGPA", value: "8+" },
           ].map((s) => (
             <div key={s.label} style={{ textAlign: "center" }}>
