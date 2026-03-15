@@ -190,26 +190,26 @@ const CERTIFICATES: Certificate[] = [
     image: "/assets/uploads/image-13-7.png",
   },
   {
-    title: "Certification",
-    issuer: "",
+    title: "Oracle Certified Foundations Associate",
+    issuer: "Oracle",
     image:
       "https://i.postimg.cc/0QNKw2sb/1761759975026-e-1775088000-v-beta-t-j-Tk-Kquxk7Or3xuc2k3Do-Sn-G2Hv7j3Ea-MEopkr66Y09M.jpg",
   },
   {
-    title: "Certification",
-    issuer: "",
+    title: "Workshop Completion Certificate",
+    issuer: "Softpro India Computer Technologies (in collaboration with AKTU)",
     image:
       "https://i.postimg.cc/mZtmH7B7/1759074618666-e-1775088000-v-beta-t-6o-Bxt8bh-TN15tp1PMUi8POC3dgc-CVhq-Bzw-ABV539Z8k.jpg",
   },
   {
-    title: "Certification",
-    issuer: "",
+    title: "Cybersecurity Essentials",
+    issuer: "Cisco Networking Academy / EduSkills",
     image:
       "https://i.postimg.cc/G3WxTNMn/1755012919238-e-1775088000-v-beta-t-kj7LQF0Du-C031SAv-MQdq-OS-s-Ij-M51O6CLKL0M0gfu-U4.jpg",
   },
   {
-    title: "Certification",
-    issuer: "",
+    title: "AI-ML Virtual Internship",
+    issuer: "EduSkills",
     image:
       "https://i.postimg.cc/8Cc60Byt/1742046613759-e-1775088000-v-beta-t-w-VQRWa-Tu0hi-Vqypu9Brfhr-y-HCwf-Cm9i-E0w-B-z-FIjg-E.jpg",
   },
