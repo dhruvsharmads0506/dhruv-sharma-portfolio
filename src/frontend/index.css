@@ -1,0 +1,252 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Font Faces ─────────────────────────────────────────── */
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/assets/fonts/JetBrainsMono[wght].woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geist Mono";
+  src: url("/assets/fonts/GeistMono[wght].woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sora";
+  src: url("/assets/fonts/Sora[wght].woff2") format("woff2");
+  font-weight: 100 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("/assets/fonts/PlusJakartaSans[wght].woff2") format("woff2");
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+
+    /* ── Bright cybersecurity palette ── */
+    --background: 0.97 0.008 255;
+    --foreground: 0.14 0.025 255;
+
+    --card: 1.0 0 0;
+    --card-foreground: 0.14 0.025 255;
+
+    --popover: 1.0 0 0;
+    --popover-foreground: 0.14 0.025 255;
+
+    /* Electric blue primary */
+    --primary: 0.52 0.24 262;
+    --primary-foreground: 1.0 0 0;
+
+    /* Vivid violet secondary */
+    --secondary: 0.55 0.22 293;
+    --secondary-foreground: 1.0 0 0;
+
+    --muted: 0.94 0.01 255;
+    --muted-foreground: 0.52 0.04 255;
+
+    /* Bright cyan accent */
+    --accent: 0.68 0.18 210;
+    --accent-foreground: 0.12 0.03 255;
+
+    --destructive: 0.58 0.22 25;
+    --destructive-foreground: 1.0 0 0;
+
+    --border: 0.88 0.025 255;
+    --input: 0.92 0.015 255;
+    --ring: 0.52 0.24 262;
+
+    --chart-1: 0.52 0.24 262;
+    --chart-2: 0.55 0.22 293;
+    --chart-3: 0.68 0.18 210;
+    --chart-4: 0.62 0.2 175;
+    --chart-5: 0.58 0.22 25;
+
+    --sidebar: 0.97 0.008 255;
+    --sidebar-foreground: 0.14 0.025 255;
+    --sidebar-primary: 0.52 0.24 262;
+    --sidebar-primary-foreground: 1.0 0 0;
+    --sidebar-accent: 0.94 0.01 255;
+    --sidebar-accent-foreground: 0.14 0.025 255;
+    --sidebar-border: 0.88 0.025 255;
+    --sidebar-ring: 0.52 0.24 262;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: "Plus Jakarta Sans", "Sora", sans-serif;
+    background-color: #f4f6ff;
+    background-image:
+      radial-gradient(ellipse 80% 60% at 0% 0%, oklch(0.52 0.24 262 / 0.06) 0%, transparent 50%),
+      radial-gradient(ellipse 60% 50% at 100% 100%, oklch(0.55 0.22 293 / 0.06) 0%, transparent 50%);
+  }
+}
+
+/* ─── Cybersecurity Utilities ─────────────────────────────── */
+@layer utilities {
+  .font-mono-code {
+    font-family: "JetBrains Mono", monospace;
+  }
+
+  .font-geist {
+    font-family: "Geist Mono", monospace;
+  }
+
+  /* Bright glow effects */
+  .glow-blue {
+    box-shadow: 0 0 12px oklch(0.52 0.24 262 / 0.35), 0 0 30px oklch(0.52 0.24 262 / 0.15);
+  }
+
+  .glow-violet {
+    box-shadow: 0 0 12px oklch(0.55 0.22 293 / 0.35), 0 0 30px oklch(0.55 0.22 293 / 0.15);
+  }
+
+  .glow-text-blue {
+    text-shadow: 0 0 12px oklch(0.52 0.24 262 / 0.5);
+  }
+
+  .glow-text-violet {
+    text-shadow: 0 0 12px oklch(0.55 0.22 293 / 0.5);
+  }
+
+  /* Profile ring */
+  .profile-ring {
+    box-shadow:
+      0 0 0 3px #ffffff,
+      0 0 0 5px oklch(0.52 0.24 262),
+      0 0 24px oklch(0.52 0.24 262 / 0.4),
+      0 8px 40px oklch(0.52 0.24 262 / 0.2);
+  }
+
+  /* Card hover */
+  .card-hover {
+    transition: all 0.3s ease;
+    border: 1px solid oklch(0.88 0.025 255);
+    background: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+  }
+
+  .card-hover:hover {
+    border-color: oklch(0.52 0.24 262 / 0.4);
+    box-shadow: 0 8px 32px oklch(0.52 0.24 262 / 0.15), 0 2px 8px rgba(0,0,0,0.06);
+    transform: translateY(-2px);
+  }
+
+  /* Grid background pattern */
+  .grid-pattern {
+    background-image:
+      linear-gradient(oklch(0.52 0.24 262 / 0.06) 1px, transparent 1px),
+      linear-gradient(90deg, oklch(0.52 0.24 262 / 0.06) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  /* Terminal cursor blink */
+  .cursor-blink::after {
+    content: "_";
+    animation: blink 1s step-end infinite;
+    color: oklch(0.52 0.24 262);
+  }
+
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+
+  /* Typing animation */
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+
+  /* Pulse ring animation */
+  @keyframes pulse-ring {
+    0% { box-shadow: 0 0 0 0 oklch(0.52 0.24 262 / 0.35); }
+    70% { box-shadow: 0 0 0 15px oklch(0.52 0.24 262 / 0); }
+    100% { box-shadow: 0 0 0 0 oklch(0.52 0.24 262 / 0); }
+  }
+
+  .pulse-ring {
+    animation: pulse-ring 2s infinite;
+  }
+
+  /* Float animation */
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-8px); }
+  }
+
+  .float-anim {
+    animation: float 4s ease-in-out infinite;
+  }
+
+  /* Section title underline */
+  .section-title::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, oklch(0.52 0.24 262), oklch(0.55 0.22 293));
+    margin-top: 10px;
+    border-radius: 2px;
+    box-shadow: 0 0 8px oklch(0.52 0.24 262 / 0.4);
+  }
+
+  /* Skill tag */
+  .skill-tag {
+    background: oklch(0.94 0.025 262);
+    border: 1px solid oklch(0.52 0.24 262 / 0.2);
+    color: oklch(0.42 0.18 262);
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.65rem;
+    border-radius: 6px;
+    transition: all 0.2s;
+    font-weight: 500;
+  }
+
+  .skill-tag:hover {
+    background: oklch(0.52 0.24 262 / 0.12);
+    border-color: oklch(0.52 0.24 262 / 0.5);
+    box-shadow: 0 2px 8px oklch(0.52 0.24 262 / 0.2);
+  }
+
+  /* Timeline line */
+  .timeline-line {
+    background: linear-gradient(180deg, oklch(0.52 0.24 262), oklch(0.55 0.22 293 / 0.3));
+  }
+
+  /* Scanlines — subtle on light bg */
+  .scanlines {
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 3px,
+      oklch(0.52 0.24 262 / 0.015) 3px,
+      oklch(0.52 0.24 262 / 0.015) 6px
+    );
+    pointer-events: none;
+  }
+}
