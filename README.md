@@ -147,5 +147,5 @@ dhruv-sharma-cybersecurity-portfolio-hj8.caffeine.xyz
 
 
 <p align="center">
-© 2026 Dhruv Sharmaji. All Rights Reserved.
+© 2026 Dhruv Sharma. All Rights Reserved.
 </p>
