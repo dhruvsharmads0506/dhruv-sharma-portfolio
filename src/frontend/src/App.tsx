@@ -194,7 +194,7 @@ const CERTIFICATES: Certificate[] = [
   {
     title: "Cloud Security Fundamentals",
     issuer: "Palo Alto Networks",
-    image: "/assets/uploads/image-11-5.png",
+    image: "https://res.cloudinary.com/dsdpibv4k/image/upload/v1773682622/1772708517139_gcmgiq.jpg",
   },
   {
     title: "Certificate of Appreciation – Illuminate Bootcamp",
@@ -206,7 +206,7 @@ const CERTIFICATES: Certificate[] = [
     title: "Oracle Certified Foundations Associate",
     issuer: "Oracle",
     image:
-      "https://res.cloudinary.com/dsdpibv4k/image/upload/v1773659248/1761759975026_ydg84y.jpg",
+      "https://res.cloudinary.com/dsdpibv4k/image/upload/v1773682655/1761759975026_pubmay.jpg",
   },
   {
     title: "Workshop Completion Certificate",
