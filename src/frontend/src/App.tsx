@@ -161,6 +161,15 @@ const PROJECTS: Project[] = [
     tags: ["Python", "Security", "Automation", "Reporting"],
     color: "#7c3aed",
   },
+  {
+    title: "PassGuard",
+    description:
+      "Web-based Password Strength Checker and Secure Password Generator. Runs entirely in the browser for complete privacy -- no data ever leaves your device.",
+    tags: ["JavaScript", "Security", "Browser", "Privacy"],
+    github: "https://github.com/dhruvsharmads0506/secure-pass-ace",
+    live: "https://passguard-tool.netlify.app/",
+    color: "#0891b2",
+  },
 ];
 
 const CERTIFICATES: Certificate[] = [
@@ -211,13 +220,13 @@ const CERTIFICATES: Certificate[] = [
     title: "AI-ML Virtual Internship",
     issuer: "EduSkills",
     image:
-      "https://res.cloudinary.com/dsdpibv4k/image/upload/v1773659451/1747072006316_lndclg.jpg",
+      "https://res.cloudinary.com/dsdpibv4k/image/upload/v1773659434/1742046613759_jit0mm.jpg",
   },
   {
     title: "Network Security Fundamentals",
     issuer: "Cisco Networking Academy",
     image:
-      "https://res.cloudinary.com/dsdpibv4k/image/upload/v1773659434/1742046613759_jit0mm.jpg",
+      "https://res.cloudinary.com/dsdpibv4k/image/upload/v1773659451/1747072006316_lndclg.jpg",
   },
 ];
 
