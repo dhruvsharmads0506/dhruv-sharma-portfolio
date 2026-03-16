@@ -176,17 +176,20 @@ const CERTIFICATES: Certificate[] = [
   {
     title: "Introduction to MongoDB",
     issuer: "MongoDB University",
-    image: "/assets/uploads/image-7-1.png",
+    image:
+      "https://res.cloudinary.com/dsdpibv4k/image/upload/v1773664744/1756399725439_z2ojfp.jpg",
   },
   {
     title: "Introduction to Generative AI",
     issuer: "Google Cloud / Simplilearn",
-    image: "/assets/uploads/image-8-2.png",
+    image:
+      "https://res.cloudinary.com/dsdpibv4k/image/upload/v1773664803/1759479979574_bzz3ft.jpg",
   },
   {
     title: "Introduction to Cybersecurity",
     issuer: "Cisco",
-    image: "/assets/uploads/image-10-4.png",
+    image:
+      "https://res.cloudinary.com/dsdpibv4k/image/upload/v1773664857/1755012918966_gd0ocr.jpg",
   },
   {
     title: "Cloud Security Fundamentals",
@@ -196,7 +199,8 @@ const CERTIFICATES: Certificate[] = [
   {
     title: "Certificate of Appreciation – Illuminate Bootcamp",
     issuer: "E-Cell IIT Bombay",
-    image: "/assets/uploads/image-13-7.png",
+    image:
+      "https://res.cloudinary.com/dsdpibv4k/image/upload/v1773664883/1763744742316_cs6rsr.jpg",
   },
   {
     title: "Oracle Certified Foundations Associate",
@@ -227,6 +231,12 @@ const CERTIFICATES: Certificate[] = [
     issuer: "Cisco Networking Academy",
     image:
       "https://res.cloudinary.com/dsdpibv4k/image/upload/v1773659451/1747072006316_lndclg.jpg",
+  },
+  {
+    title: "Introduction to Dark Web, Anonymity, and Cryptocurrency",
+    issuer: "CodeRed Certification",
+    image:
+      "https://res.cloudinary.com/dsdpibv4k/image/upload/v1773665699/97e3c6fc-c83e-4c75-aca2-f41b74cfa66d_1_l82dc9.png",
   },
 ];
 
