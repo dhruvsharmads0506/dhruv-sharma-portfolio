@@ -88,7 +88,7 @@ Portfolio
 <p><b>Clone the repository</b></p>
 
 <pre>
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/dhruvsharmads0506/dhruv-sharma-portfolio.git
 </pre>
 
 <p><b>Navigate to frontend directory</b></p>
