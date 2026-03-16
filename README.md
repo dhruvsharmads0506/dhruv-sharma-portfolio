@@ -1,12 +1,18 @@
+
+
+
+<!-- Top Banner -->
+
+
 <h1 align="center">🛡️ Dhruv Sharma – Cybersecurity Portfolio</h1>
 
 <p align="center">
-Cybersecurity Enthusiast | Developer | Security Learner
+Cybersecurity Enthusiast • Developer • Security Learner
 </p>
 
 <p align="center">
-<a href="https://dhruv-sharma-cybersecurity-portfolio-hj8.caffeine.xyz">
-🌐 View Live Portfolio
+<a href="https://dhruvsharma0506.vercel.app/">
+<b>🌐 View Live Portfolio</b>
 </a>
 </p>
 
@@ -15,9 +21,14 @@ Cybersecurity Enthusiast | Developer | Security Learner
 <h2>🚀 About This Portfolio</h2>
 
 <p>
-This portfolio showcases my work, projects, and learning journey in 
-<b>cybersecurity, ethical hacking, and modern web development</b>. 
-It highlights my technical skills and passion for securing digital systems.
+Welcome to my personal portfolio website. This project showcases my work, projects,
+technical skills, and learning journey in <b>Cybersecurity, Ethical Hacking,
+and Modern Web Development</b>.
+</p>
+
+<p>
+The goal of this portfolio is to demonstrate my interest in security research,
+secure software development, and building modern web applications.
 </p>
 
 <ul>
@@ -32,8 +43,8 @@ It highlights my technical skills and passion for securing digital systems.
 
 <h2>🧰 Tech Stack</h2>
 
-<p>
-<img src="https://skillicons.dev/icons?i=react,vite,ts,tailwind,nodejs,threejs,git,github" />
+<p align="center">
+<img src="https://skillicons.dev/icons?i=react,vite,ts,tailwind,nodejs,threejs,git,github,linux">
 </p>
 
 <ul>
@@ -41,10 +52,12 @@ It highlights my technical skills and passion for securing digital systems.
 <li>Vite</li>
 <li>TypeScript</li>
 <li>Tailwind CSS</li>
+<li>Node.js</li>
 <li>Three.js</li>
 <li>Radix UI</li>
 <li>TanStack Query</li>
 <li>Zustand</li>
+<li>Git & GitHub</li>
 </ul>
 
 <hr>
@@ -72,31 +85,31 @@ Portfolio
 
 <h2>⚙️ Run Locally</h2>
 
-<p>Clone the repository</p>
+<p><b>Clone the repository</b></p>
 
 <pre>
 git clone https://github.com/yourusername/portfolio.git
 </pre>
 
-<p>Go to frontend directory</p>
+<p><b>Navigate to frontend directory</b></p>
 
 <pre>
 cd src/frontend
 </pre>
 
-<p>Install dependencies</p>
+<p><b>Install dependencies</b></p>
 
 <pre>
 pnpm install
 </pre>
 
-<p>Run development server</p>
+<p><b>Start development server</b></p>
 
 <pre>
-pnpm vite
+pnpm run dev
 </pre>
 
-<p>Open browser</p>
+<p><b>Open in browser</b></p>
 
 <pre>
 http://localhost:5173
@@ -111,8 +124,24 @@ http://localhost:5173
 <li>Responsive design</li>
 <li>Interactive portfolio layout</li>
 <li>Project showcase</li>
-<li>Skills & technology section</li>
+<li>Skills & technologies section</li>
+<li>Modern React + Vite architecture</li>
 </ul>
+
+<hr>
+
+<h2>🌐 Live Deployment</h2>
+
+<p>
+This portfolio is deployed using <b>Vercel</b>.
+</p>
+
+<p>
+🔗 Live Website:
+<a href="https://dhruvsharma0506.vercel.app/">
+https://dhruvsharma0506.vercel.app/
+</a>
+</p>
 
 <hr>
 
@@ -121,8 +150,9 @@ http://localhost:5173
 <ul>
 <li>Add CTF writeups</li>
 <li>Add cybersecurity lab projects</li>
-<li>Add technical blog</li>
 <li>Add vulnerability research</li>
+<li>Add technical blog</li>
+<li>Add penetration testing case studies</li>
 </ul>
 
 <hr>
@@ -135,17 +165,24 @@ Cybersecurity Enthusiast
 </p>
 
 <p>
-🌐 Portfolio:  
-<a href="https://dhruv-sharma-cybersecurity-portfolio-hj8.caffeine.xyz">
-dhruv-sharma-cybersecurity-portfolio-hj8.caffeine.xyz
+🌐 Portfolio:
+<a href="https://dhruvsharma0506.vercel.app/">
+dhruvsharma0506.vercel.app
 </a>
 </p>
 
-<p>
-⭐ If you like this project, consider giving it a star!
+<p align="center">
+⭐ If you like this project, consider giving it a star on GitHub!
 </p>
 
+<hr>
 
 <p align="center">
-© 2026 Dhruv Sharma. All Rights Reserved.
+© 2026 Dhruv Sharma • All Rights Reserved
 </p>
+
+<!-- Footer Banner -->
+<p align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer">
+</p>
+
