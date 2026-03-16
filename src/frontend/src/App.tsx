@@ -193,25 +193,31 @@ const CERTIFICATES: Certificate[] = [
     title: "Oracle Certified Foundations Associate",
     issuer: "Oracle",
     image:
-      "https://i.postimg.cc/0QNKw2sb/1761759975026-e-1775088000-v-beta-t-j-Tk-Kquxk7Or3xuc2k3Do-Sn-G2Hv7j3Ea-MEopkr66Y09M.jpg",
+      "https://res.cloudinary.com/dsdpibv4k/image/upload/v1773659248/1761759975026_ydg84y.jpg",
   },
   {
     title: "Workshop Completion Certificate",
     issuer: "Softpro India Computer Technologies (in collaboration with AKTU)",
     image:
-      "https://i.postimg.cc/mZtmH7B7/1759074618666-e-1775088000-v-beta-t-6o-Bxt8bh-TN15tp1PMUi8POC3dgc-CVhq-Bzw-ABV539Z8k.jpg",
+      "https://res.cloudinary.com/dsdpibv4k/image/upload/v1773659323/1759074618666_ycjxsb.jpg",
   },
   {
     title: "Cybersecurity Essentials",
     issuer: "Cisco Networking Academy / EduSkills",
     image:
-      "https://i.postimg.cc/G3WxTNMn/1755012919238-e-1775088000-v-beta-t-kj7LQF0Du-C031SAv-MQdq-OS-s-Ij-M51O6CLKL0M0gfu-U4.jpg",
+      "https://res.cloudinary.com/dsdpibv4k/image/upload/v1773659391/1755012919238_xje94p.jpg",
   },
   {
     title: "AI-ML Virtual Internship",
     issuer: "EduSkills",
     image:
-      "https://i.postimg.cc/8Cc60Byt/1742046613759-e-1775088000-v-beta-t-w-VQRWa-Tu0hi-Vqypu9Brfhr-y-HCwf-Cm9i-E0w-B-z-FIjg-E.jpg",
+      "https://res.cloudinary.com/dsdpibv4k/image/upload/v1773659451/1747072006316_lndclg.jpg",
+  },
+  {
+    title: "Network Security Fundamentals",
+    issuer: "Cisco Networking Academy",
+    image:
+      "https://res.cloudinary.com/dsdpibv4k/image/upload/v1773659434/1742046613759_jit0mm.jpg",
   },
 ];
 
@@ -729,7 +735,7 @@ export default function App() {
           className={isDark ? "profile-photo" : ""}
         >
           <img
-            src="https://i.postimg.cc/7ZQFkKZW/1.jpg"
+            src="https://res.cloudinary.com/dsdpibv4k/image/upload/v1773659089/1_xdtocg.jpg"
             alt="Dhruv Sharma"
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
           />
