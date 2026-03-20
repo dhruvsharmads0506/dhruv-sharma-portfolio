@@ -145,30 +145,33 @@ const PROJECTS: Project[] = [
     live: "https://tinytrail-links.netlify.app",
     color: "#2563eb",
   },
-   {
-  title: "InterviewIQ.AI",
-  description:
-    "InterviewIQ.AI is a full-stack AI-powered interview preparation platform that simulates real interview scenarios using adaptive questioning and real-time performance evaluation. It includes secure authentication, AI-driven interview generation, payment integration, and a scalable backend to help users prepare effectively for job interviews.",
+ 
 
-  tags: [
-    "React",
-    "Vite",
-    "Node.js",
-    "Express",
-    "MongoDB",
-    "JWT Auth",
-    "AI Integration",
-    "Razorpay",
-    "REST API",
-    "Full Stack"
-  ],
+ {
+    title: "🚀 InterviewIQ.AI",
+    description:
+      "Full-stack AI-powered interview preparation platform with adaptive questioning and real-time performance evaluation. Features secure authentication, AI-driven interview generation, payment integration, and scalable backend services. (Note: Live demo may take a few seconds to load due to server cold start).",
 
-  github: "https://github.com/dhruvsharmads0506/InterviewIQ.AI.git",
+    tags: [
+      "React",
+      "Vite",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JWT Auth",
+      "AI",
+      "Razorpay",
+      "REST API",
+      "Full Stack",
+      "Featured"
+    ],
 
-  live: "https://interviewiq-ai-x3i2.onrender.com/",
-
-  color: "from-green-400 to-blue-500"
-},
+    github: "https://github.com/dhruvsharmads0506/InterviewIQ.AI.git",
+    live: "https://interviewiq-ai-x3i2.onrender.com/",
+    
+    // ✅ FIXED COLOR (IMPORTANT)
+    color: "#22c55e", // green highlight (looks premium)
+  },
   {
     title: "CyberPort Scanner",
     description:
