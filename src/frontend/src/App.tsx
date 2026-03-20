@@ -137,7 +137,7 @@ const SKILL_CATEGORIES: SkillCategory[] = [
 
 const PROJECTS: Project[] = [
   {
-    title: "TinyTRaIL",
+    title: "🔗 TinyTRaIL ",
     description:
       "Full Stack URL Shortener with JWT authentication, QR code generation, and SQL database. Clean UI with analytics dashboard.",
     tags: ["Node.js", "JWT", "QR Code", "SQL", "Full Stack"],
@@ -148,7 +148,7 @@ const PROJECTS: Project[] = [
  
 
  {
-    title: "🚀 InterviewIQ.AI",
+    title: "🤖🚀 InterviewIQ.AI",
     description:
       "Full-stack AI-powered interview preparation platform with adaptive questioning and real-time performance evaluation. Features secure authentication, AI-driven interview generation, payment integration, and scalable backend services. (Note: Live demo may take a few seconds to load due to server cold start).",
 
@@ -173,7 +173,7 @@ const PROJECTS: Project[] = [
     color: "#22c55e", // green highlight (looks premium)
   },
   {
-    title: "CyberPort Scanner",
+    title: "🛡️ CyberPort Scanner ",
     description:
       "Python-based port scanner using raw sockets for network reconnaissance. Fast, efficient, and outputs detailed service info.",
     tags: ["Python", "Sockets", "Networking", "Cybersecurity"],
@@ -182,14 +182,14 @@ const PROJECTS: Project[] = [
     color: "#dc2626",
   },
   {
-    title: "Vulnerability Scanner",
+    title: "🔍 Vulnerability Scanner ",
     description:
       "Automated vulnerability scanning tool with detailed reporting. Identifies common security weaknesses in web applications.",
     tags: ["Python", "Security", "Automation", "Reporting"],
     color: "#7c3aed",
   },
   {
-    title: "PassGuard",
+    title: "🔐 PassGuard ",
     description:
       "Web-based Password Strength Checker and Secure Password Generator. Runs entirely in the browser for complete privacy -- no data ever leaves your device.",
     tags: ["JavaScript", "Security", "Browser", "Privacy"],
