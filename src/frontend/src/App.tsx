@@ -1094,18 +1094,19 @@ export default function App() {
                 (e.currentTarget as HTMLDivElement).style.boxShadow = "none";
               }}
             >
-              <h3
-                style={{
-                  fontWeight: 700,
-                  color: isDark ? "#00e5a8" : cat.color,
-                  marginBottom: "0.85rem",
-                  letterSpacing: "0.02em",
-                  textTransform: "uppercase" as const,
-                  fontSize: "0.8rem",
-                }}
-              >
-                {cat.name}
-              </h3>
+             <h3
+  style={{
+    fontWeight: 700,
+    color: isDark ? "#00e5a8" : cat.color,
+    marginBottom: "0.85rem",
+    letterSpacing: "0.05em",
+    textTransform: "uppercase",
+    fontSize: "1.2rem", // 🔥 increased size
+    textShadow: isDark ? "0 0 8px #00e5a8" : "none", // ✨ glow effect
+  }}
+>
+  {cat.name}
+</h3>
               <div style={{ display: "flex", flexWrap: "wrap", gap: "0.4rem" }}>
                 {cat.skills.map((skill) => (
                   <span
