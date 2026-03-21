@@ -173,6 +173,30 @@ const PROJECTS: Project[] = [
     color: "#22c55e", // green highlight (looks premium)
   },
   {
+  title: "🎬🍿 Movie Recommender System",
+  description:
+    "Machine Learning-based movie recommendation system that suggests similar movies using content-based filtering and cosine similarity. Built with an interactive Streamlit UI and integrated with TMDb API to fetch real-time movie posters for an enhanced user experience.",
+
+  tags: [
+    "Python",
+    "Machine Learning",
+    "Streamlit",
+    "Pandas",
+    "Scikit-learn",
+    "TMDb API",
+    "Content-Based Filtering",
+    "Cosine Similarity",
+    "Data Science",
+    "Featured"
+  ],
+
+  github: "https://github.com/dhruvsharmads0506/MovieRecML.git",
+  live: "https://movie-recommender-system-0506.streamlit.app/",
+
+  // 🎯 Color theme (matches movie vibe)
+  color: "#f59e0b", // warm amber (cinema feel)
+},
+  {
     title: "🛡️ CyberPort Scanner ",
     description:
       "Python-based port scanner using raw sockets for network reconnaissance. Fast, efficient, and outputs detailed service info.",
