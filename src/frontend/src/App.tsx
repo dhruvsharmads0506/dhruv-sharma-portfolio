@@ -40,28 +40,28 @@ interface Achievement {
 // ─── Data ─────────────────────────────────────────────────────────────────────
 const SKILL_CATEGORIES: SkillCategory[] = [
   {
-    name: "Programming",
+    name: "💻 Programming",
     color: "#2563eb",
     bgColor: "#eff6ff",
     borderColor: "#bfdbfe",
     skills: ["Python", "C", "C++", "JavaScript"],
   },
   {
-    name: "Web Development",
+    name: "🌐 Web Development",
     color: "#7c3aed",
     bgColor: "#f5f3ff",
     borderColor: "#ddd6fe",
     skills: ["HTML", "CSS", "React", "Node.js"],
   },
   {
-    name: "Database",
+    name: "🗄️ Database",
     color: "#0891b2",
     bgColor: "#ecfeff",
     borderColor: "#a5f3fc",
     skills: ["MySQL", "SQL", "MongoDB"],
   },
   {
-    name: "Artificial Intelligence",
+    name: "🤖 Artificial Intelligence",
     color: "#d97706",
     bgColor: "#fffbeb",
     borderColor: "#fde68a",
@@ -77,7 +77,7 @@ const SKILL_CATEGORIES: SkillCategory[] = [
     ],
   },
   {
-    name: "Security Concepts",
+    name: "🔐 Security Concepts",
     color: "#dc2626",
     bgColor: "#fef2f2",
     borderColor: "#fecaca",
@@ -90,7 +90,7 @@ const SKILL_CATEGORIES: SkillCategory[] = [
     ],
   },
   {
-    name: "Core Subjects",
+    name: "📚 Core Subjects",
     color: "#059669",
     bgColor: "#ecfdf5",
     borderColor: "#a7f3d0",
@@ -104,7 +104,7 @@ const SKILL_CATEGORIES: SkillCategory[] = [
     ],
   },
   {
-    name: "Cybersecurity Tools",
+    name: "🛠️ Cybersecurity Tools",
     color: "#be185d",
     bgColor: "#fdf2f8",
     borderColor: "#fbcfe8",
@@ -120,14 +120,14 @@ const SKILL_CATEGORIES: SkillCategory[] = [
     ],
   },
   {
-    name: "Development Tools",
+    name: "⚙️ Development Tools",
     color: "#1d4ed8",
     bgColor: "#eff6ff",
     borderColor: "#bfdbfe",
     skills: ["Git", "GitHub", "VS Code", "Postman"],
   },
   {
-    name: "Other Tools",
+    name: "🧩 Other Tools",
     color: "#6d28d9",
     bgColor: "#f5f3ff",
     borderColor: "#ddd6fe",
