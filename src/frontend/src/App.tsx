@@ -317,7 +317,14 @@ const CERTIFICATES: Certificate[] = [
     issuer: "CodeRed Certification",
     image:
       "https://res.cloudinary.com/dsdpibv4k/image/upload/v1773665699/97e3c6fc-c83e-4c75-aca2-f41b74cfa66d_1_l82dc9.png",
-  },
+  },{
+  title: "AWS Academy Graduate – Cloud Foundations",
+  issuer: "AWS Academy",
+  duration: "20 hours",
+  date: "03 Jan 2025",
+  credentialUrl: "https://www.credly.com/go/lYq7hgw1",
+  image: "https://res.cloudinary.com/dsdpibv4k/image/upload/v1777140049/AWS_Academy_Graduate___Cloud_Foundations___Training_Badge_Badge20260423-30-3qpqqk_page-0001_aqlm9k.jpg"
+},
 ];
 
 const EDUCATION: Education[] = [
