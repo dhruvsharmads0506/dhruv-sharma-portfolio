@@ -145,6 +145,35 @@ const PROJECTS: Project[] = [
     live: "https://tinytrail-links.netlify.app",
     color: "#2563eb",
   },
+  {
+title: "💸 SplitShare",
+description:
+"Smart expense-sharing web application that simplifies group expense management with real-time balance tracking and optimized settlement logic. Designed to handle shared expenses efficiently with a clean and responsive user interface.",
+
+highlights: [
+"Real-time expense tracking and splitting",
+"Optimized settlement to minimize transactions",
+"Group-based expense management",
+"Secure backend with REST APIs",
+"Responsive and user-friendly UI"
+],
+
+tags: [
+"React",
+"Node.js",
+"Express",
+"MongoDB",
+"REST API",
+"Full Stack",
+"Finance App"
+],
+
+github: "https://github.com/dhruvsharmads0506/SplitShare",
+live: "https://splitshare-vywe.onrender.com/",
+
+color: "#6366f1"
+}
+,
  
 
  {
